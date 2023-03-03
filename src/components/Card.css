@@ -1,0 +1,57 @@
+.card-img {
+    width: 125px;
+    height: 168px;
+    border-radius: 0.4rem;
+    margin: 3rem;
+}
+
+.logo-location{
+    height: 12px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.location-div{
+    display: flex;
+    align-items: center;
+    
+}
+
+.location {
+    font-size: 10px;
+    margin-left: 2px;
+    margin-right: 1rem;
+}
+.google-maps-url {
+    color: #918E9B;
+    font-size: 10px;
+}
+
+.title {
+    width: 329px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+
+}
+
+.date {
+    font-size: 10px;
+    color: #2B283A;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 10.24px;
+    width: 326px;
+    height: auto;
+    line-height: 18px;
+    font-weight: 200px;
+}
+
+.card-item {
+
+}

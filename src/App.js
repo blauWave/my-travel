@@ -6,9 +6,14 @@ import Footer from './components/Footer';
 import data from "./data";
 
 function App() {
+  const xx = <hr className="card-line"/>
   const cards = data.map(cardData => {
     return(
+      <>
       <Card data={cardData}/>
+      {xx}
+      </>
+      
     )
   })
 
@@ -18,7 +23,7 @@ function App() {
     <div className='App'>
       <Navbar/>
 
-      <section className="cards-list">
+      <section>
         {cards}
       </section>
       <Footer/>

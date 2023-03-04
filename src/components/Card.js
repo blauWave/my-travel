@@ -32,7 +32,7 @@ function Card(props) {
                
             </div>
             
-            <hr className="card-line"/>
+            
         
         </div>
         

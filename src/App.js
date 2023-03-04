@@ -6,19 +6,17 @@ import Footer from './components/Footer';
 import data from "./data";
 
 function App() {
+  //added line 
   const line = <hr className="card-line"/>
+  
   const cards = data.map(cardData => {
     return(
       <>
       <Card data={cardData}/>
       {line}
       </>
-      
     )
   })
-
-  
-
   return (
     <div className='App'>
       <Navbar/>

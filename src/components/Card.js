@@ -4,16 +4,6 @@ import './Card.css';
 
 
 function Card(props) {
-
-    const ColoredLine = ({ color }) => (
-        <hr className="card-line"
-            style={{
-                color: color,
-                backgroundColor: color,
-                height: 5
-            }}
-        />
-    );
     return (
         <div className="card">
             <div className="card-img-area">
@@ -28,15 +18,13 @@ function Card(props) {
                 </div>
                 <h1 className="title">{props.data.title}</h1>
                 <p className="date">{props.data.startDate} - {props.data.endDate}</p>
-                <p className="description">{props.data.description}</p>             
-               
+                <p className="description">{props.data.description}</p>              
             </div>
-            
-            
-        
         </div>
         
     )
 }
+
+
 
 export default Card;

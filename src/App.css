@@ -8,5 +8,18 @@ body {
 .App {
   background-color: white;
   width: 550px;
-  height: 731px;
+  height: 890px;
+
+  font-style: normal;
+
+}
+
+.card-line {
+
+  border: 1px solid #d11313;
+}
+
+
+.card-line:last-child {
+  display: none;
 }

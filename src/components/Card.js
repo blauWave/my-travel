@@ -16,13 +16,16 @@ function Card(props) {
                 <p className="location">{props.data.location}</p>
                 <a className="google-maps-url" href={props.data.googleMapsUrl}>View on Google Maps</a>
                 </div>
-                
                 <h1 className="title">{props.data.title}</h1>
                 <p className="date">{props.data.startDate} - {props.data.endDate}</p>
-                <p className="description">{props.data.description}</p>
+                <p className="description">{props.data.description}</p>             
+               
             </div>
             
+            <hr className="card-line"/> 
+        
         </div>
+        
     )
 }
 

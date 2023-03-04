@@ -4,9 +4,19 @@ import './Card.css';
 
 
 function Card(props) {
+
+    const ColoredLine = ({ color }) => (
+        <hr className="card-line"
+            style={{
+                color: color,
+                backgroundColor: color,
+                height: 5
+            }}
+        />
+    );
     return (
         <div className="card">
-            <div>
+            <div className="card-img-area">
             <img className="card-img" src={props.data.imageUrl} alt="" />
             </div>
 
@@ -22,7 +32,7 @@ function Card(props) {
                
             </div>
             
-            <hr className="card-line"/> 
+            <hr className="card-line"/>
         
         </div>
         

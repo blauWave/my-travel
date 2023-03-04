@@ -5,8 +5,7 @@
 }
 .card-img-area{
     margin-right: 4%;
-    width: 35%;
-    
+    width: 35%; 
 }
 
 .logo-location {
@@ -45,7 +44,6 @@
     height: auto;
     padding: 0;
     margin: 0;
-
 }
 
 .date {
@@ -62,7 +60,6 @@
 }
 
 .card-item {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
